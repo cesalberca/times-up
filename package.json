@@ -5,7 +5,7 @@
   "scripts": {
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test",
+    "test": "craco test --watchAll=false",
     "format": "prettier --write --ignore-path .gitignore .",
     "eject": "craco eject"
   },
